@@ -1,0 +1,419 @@
+@charset "utf-8";
+
+/* 初始化 */
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: "Microsoft YaHei", "Heiti SC", tahoma, arial, "Hiragino Sans GB", 宋体, sans-serif;
+    ;
+    background-color: #f4f4f4 !important;
+}
+
+/* 清除列表的默认风格 */
+ul,
+ol,
+dl {
+    list-style: none;
+}
+
+/* 表单相关的元素 */
+fieldset,
+img,
+input,
+button,
+textarea {
+    border: none;
+    margin: 0;
+    padding: 0;
+    /* 去除外边线 */
+    outline: none;
+}
+
+/* 超链接标签 */
+a {
+    color: #999;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f8b62b;
+}
+
+/* h家族 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+/* 浮动 */
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* 清除浮动 */
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* 版心 */
+.w {
+    width: 119rem;
+    margin: 0 auto;
+}
+
+/* 水平对齐方式 */
+.tl {
+    text-align: left;
+}
+
+.tr {
+    text-align: right;
+}
+
+.tc {
+    text-align: center;
+}
+
+/* 页面通用颜色 */
+.f60 {
+    color: red;
+}
+
+/* 清除语义化标签的默认样式 */
+s,
+i {
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*********** 顶部通栏-start ***********/
+
+.lk-toolbar {
+    background-color: #f5f5f5;
+    height: 3.5rem;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.lk-toolbar>div {
+    height: 100%;
+}
+
+.lk-toolbar>div li {
+    float: left;
+    line-height: 3.5rem;
+    position: relative;
+    border-right: 1px solid #999999;
+    padding: 0 3rem 0.2rem 1rem;
+    font-size: 12px;
+}
+
+.lk-toolbar>div li .vip {
+    padding: 0 1rem 0.2rem 1rem;
+}
+
+.lk-toolbar>div li.down i {
+    position: absolute;
+    right: 1rem;
+    top: 1.7rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    /* 超出隐藏 */
+    overflow: hidden;
+}
+
+.lk-toolbar>div li.down i s {
+    position: absolute;
+    left: 0;
+    top: -1.8rem;
+    font-size: 2.2rem;
+    color: #999999;
+}
+
+.lk-toolbar .f1 .location-pic-li {
+    position: relative;
+}
+
+.lk-toolbar .f1 .location-pic-li>a {
+    margin-left: 1.5rem;
+}
+
+.lk-toolbar .fr .down .f60 {
+    padding-left: 2rem;
+}
+
+.f1-location-pic {
+    width: 1.4rem;
+    height: 1.9rem;
+    position: absolute;
+    margin-top: 0.7rem;
+}
+
+.lk-toolbar>div li>img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/*********** 顶部通栏-end ***********/
+
+/*********** 顶部搜索-start ***********/
+.lk-top-search {
+    background-color: #fff;
+    height: 11rem;
+}
+
+/* 左边 */
+.lk-top-search .logo-set {
+    float: left;
+    width: 50rem;
+    height: 10rem;
+    background: url(images/logo.png) no-repeat center;
+}
+
+/* 搜索框 */
+.lk-top-search .search-input {
+    width: 53.8rem;
+    height: 3.6rem;
+    float: left;
+    padding-top: 3rem;
+    padding-left: 6rem;
+}
+
+.lk-top-search .search-more-link {
+    float: left;
+    width: 53.8rem;
+    height: 3rem;
+    padding-left: 6.1rem;
+}
+
+.lk-top-search .search-more-link li {
+    float: left;
+    margin: 0.7rem 0.5rem 0 0;
+}
+
+.lk-top-search .search-more-link li+li {
+    /* border-left: 0.1rem solid #c0c0c0; */
+    padding-left: 0.5rem;
+}
+
+.lk-top-search .search-input input:first-child {
+    width: 45rem;
+    height: 3.6rem;
+    border: 0.2rem solid #f8b62b;
+    box-sizing: border-box;
+    padding-left: 0.8rem;
+    font-size: 1.2rem;
+    float: left;
+}
+
+.lk-top-search .search-input input:last-child {
+    width: 8rem;
+    height: 3.6rem;
+    background-color: #f8b62b;
+    color: #fff;
+    font-size: 1.5rem;
+    float: left;
+}
+
+/*********** 顶部搜索-end ***********/
+
+/*********** 中部导航-start ***********/
+.lk-nav {
+    width: 100%;
+    height: 3.8rem;
+    background-color: #fff;
+}
+
+.lk-nav>div {
+    display: flex;
+}
+
+.lk-nav>div .lk-nav-menu {
+    width: 21rem;
+    height: 3.8rem;
+    background-color: #F8B62B;
+}
+
+/* 左边 */
+.lk-nav>div .lk-nav-menu a {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: #fff;
+    width: 100%;
+    display: block;
+    line-height: 3.8rem;
+    padding-left: 2.5rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.lk-nav>div .lk-nav-menu a:before {
+    content: '';
+    position: absolute;
+    width: 1.2rem;
+    height: 1rem;
+    top: 1.5rem;
+    left: 1rem;
+}
+
+/* 右边 */
+.lk-nav>div .lk-nav-items {
+    flex: 1;
+}
+
+.lk-nav>div .lk-nav-items ul li {
+    float: left;
+    line-height: 3.8rem;
+    padding: 0 1rem;
+    font-weight: bolder;
+}
+
+.lk-nav>div .lk-nav-items ul li a {
+    color: #000000;
+    font-size: 1.7rem;
+}
+
+.lk-nav>div .lk-nav-items ul li a:hover {
+    color: #F8B62B
+}
+
+/*********** 中部导航-end ***********/
+
+/*********** 尾部内容-start ***********/
+.lk-footer {
+    background: #eaeaea;
+    border-top: 0.1rem solid #e7e7e7;
+    padding: 2rem 0;
+}
+
+.lk-footer .footer-top .footer-top-propmise {
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+.lk-footer .footer-top .footer-top-propmise dl {
+    float: left;
+    width: 25%;
+
+}
+
+.lk-footer .footer-top .footer-top-propmise dl dt {
+    float: left;
+    margin: 1rem 0 0 2rem;
+    width: 4.4rem;
+    height: 4.4rem;
+    background-image: url(images/ico_service.png);
+    background-repeat: no-repeat;
+}
+
+.lk-footer .footer-top .footer-top-propmise .first {
+    background-position: 0px 2.8px;
+}
+
+.lk-footer .footer-top .footer-top-propmise .second {
+    background-position: 0px -42px;
+}
+
+.lk-footer .footer-top .footer-top-propmise .third {
+    background-position: 0px -85px;
+}
+
+.lk-footer .footer-top .footer-top-propmise .forth {
+    background-position: 0px -128px;
+}
+
+.lk-footer .footer-top .footer-top-propmise dl dd {
+    line-height: 2.4rem;
+    font-size: 20px;
+}
+
+.lk-footer .footer-top .footer-top-propmise dl dd p {
+    padding-top: 2rem;
+}
+
+.lk-footer .footer-top .footer-top-shopping {
+    padding: 2rem 5rem;
+    border-top: 1px solid #dedede;
+}
+
+.lk-footer .footer-top .footer-top-shopping dl {
+    float: left;
+    width: 20%;
+}
+
+.lk-footer .footer-top .footer-top-shopping dl dt {
+    font: bolder 1.8rem/4rem "microsoft yahei";
+    color: #545454;
+}
+
+.lk-footer .footer-top .footer-top-shopping dl dd {
+    padding-left: .3rem;
+}
+
+.lk-footer .footer-bottom {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.lk-footer .footer-bottom .url-list-links {
+    line-height: 2.5rem;
+    height: 2.5rem;
+}
+
+.lk-footer .footer-bottom .url-list-links a {
+    margin: 0 0.8rem;
+}
+
+.lk-footer .footer-bottom .footer-bottom-copyright {
+    padding: 1rem 0;
+    line-height: 2.5rem;
+}
+
+.lk-footer .footer-bottom-img a {
+    margin: 0 0.5rem;
+}
+
+/*********** 尾部内容-end ***********/

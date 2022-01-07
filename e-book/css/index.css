@@ -1,0 +1,693 @@
+/*********** 通用样式-start ***********/
+
+/*********** 通用样式-end ***********/
+
+/*********** 广告-start ***********/
+.lk-top-banner {
+    position: relative;
+    background-color: #164FA6;
+}
+
+.lk-top-banner .top-banner-center {
+    height: 10rem;
+}
+
+.lk-top-banner .top-banner-center img {
+    width: 100%;
+}
+
+.lk-top-banner .banner-close {
+    position: absolute;
+    top: 0.3rem;
+    right: 9rem;
+    width: 1.9rem;
+    height: 1.9rem;
+}
+
+.lk-top-banner .banner-close:hover {
+    background-position: 0 -1.9rem;
+}
+
+/*********** 广告-end ***********/
+
+/*********** 顶部通栏-start ***********/
+
+.lk-toolbar {
+    background-color: #f5f5f5;
+    height: 3.5rem;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.lk-toolbar>div {
+    height: 100%;
+}
+
+.lk-toolbar>div li {
+    float: left;
+    line-height: 3.5rem;
+    position: relative;
+    border-right: 1px solid #999999;
+    padding: 0 3rem 0.2rem 1rem;
+    font-size: 12px;
+}
+
+.lk-toolbar>div li .vip {
+    padding: 0 1rem 0.2rem 1rem;
+}
+
+.lk-toolbar>div li.down i {
+    position: absolute;
+    right: 1rem;
+    top: 1.7rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    /* 超出隐藏 */
+    overflow: hidden;
+}
+
+.lk-toolbar>div li.down i s {
+    position: absolute;
+    left: 0;
+    top: -1.8rem;
+    font-size: 2.2rem;
+    color: #999999;
+}
+
+.lk-toolbar .f1 .location-pic-li {
+    position: relative;
+}
+
+.lk-toolbar .f1 .location-pic-li>a {
+    margin-left: 1.5rem;
+}
+
+.lk-toolbar .fr .down .f60 {
+    padding-left: 2rem;
+}
+
+.f1-location-pic {
+    width: 1.4rem;
+    height: 1.9rem;
+    position: absolute;
+    margin-top: 0.7rem;
+}
+
+.lk-toolbar>div li>img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/*********** 顶部通栏-end ***********/
+
+/*********** 顶部搜索-start ***********/
+.lk-top-search {
+    background-color: #fff;
+    height: 11rem;
+}
+
+/* 左边 */
+.lk-top-search .logo-set {
+    float: left;
+    width: 50rem;
+    height: 10rem;
+    background: url(images/logo.png) no-repeat center;
+}
+
+/* 搜索框 */
+.lk-top-search .search-input {
+    width: 53.8rem;
+    height: 3.6rem;
+    float: left;
+    padding-top: 3rem;
+    padding-left: 6rem;
+}
+
+.lk-top-search .search-more-link {
+    float: left;
+    width: 53.8rem;
+    height: 3rem;
+    padding-left: 6.1rem;
+}
+
+.lk-top-search .search-more-link li {
+    float: left;
+    margin: 0.7rem 0.5rem 0 0;
+}
+
+.lk-top-search .search-more-link li+li {
+    /* border-left: 0.1rem solid #c0c0c0; */
+    padding-left: 0.5rem;
+}
+
+.lk-top-search .search-input input:first-child {
+    width: 45rem;
+    height: 3.6rem;
+    border: 0.2rem solid #f8b62b;
+    box-sizing: border-box;
+    padding-left: 0.8rem;
+    font-size: 1.2rem;
+    float: left;
+}
+
+.lk-top-search .search-input input:last-child {
+    width: 8rem;
+    height: 3.6rem;
+    background-color: #f8b62b;
+    color: #fff;
+    font-size: 1.5rem;
+    float: left;
+}
+
+/*********** 顶部搜索-end ***********/
+
+/*********** 中部导航-start ***********/
+.lk-nav {
+    width: 100%;
+    height: 3.8rem;
+    background-color: #fff;
+}
+
+.lk-nav>div {
+    display: flex;
+}
+
+.lk-nav>div .lk-nav-menu {
+    width: 21rem;
+    height: 3.8rem;
+    background-color: #F8B62B;
+}
+
+/* 左边 */
+.lk-nav>div .lk-nav-menu a {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: #fff;
+    width: 100%;
+    display: block;
+    line-height: 3.8rem;
+    padding-left: 2.5rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.lk-nav>div .lk-nav-menu a:before {
+    content: '';
+    position: absolute;
+    width: 1.2rem;
+    height: 1rem;
+    top: 1.5rem;
+    left: 1rem;
+}
+
+/* 右边 */
+.lk-nav>div .lk-nav-items {
+    flex: 1;
+}
+
+.lk-nav>div .lk-nav-items ul li {
+    float: left;
+    line-height: 3.8rem;
+    padding: 0 1rem;
+    font-weight: bolder;
+}
+
+.lk-nav>div .lk-nav-items ul li a {
+    color: #000000;
+    font-size: 1.7rem;
+}
+
+.lk-nav>div .lk-nav-items ul li a:hover {
+    color: #F8B62B
+}
+
+/*********** 中部导航-end ***********/
+
+
+/*********** 轮播图-start ***********/
+.lk-casual {
+    width: 100%;
+    height: 44rem;
+    background-color: rgb(115, 164, 255);
+    border-top: 1px solid #e7e7e7;
+}
+
+/* 左边 */
+.lk-casual .casual-left {
+    width: 21rem;
+    height: 44rem;
+    background-color: #252221;
+    float: left;
+    margin-left: -100%;
+}
+
+.lk-casual .casual-left .index-list {
+    width: 21rem;
+    height: 44rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.lk-casual .casual-left .index-list li {
+    height: 2rem;
+    padding-left: 0.8rem;
+}
+
+.lk-casual .casual-left .index-list li a {
+    color: #fff;
+}
+
+.lk-casual .casual-left .index-list li a:hover {
+    color: #F8B62B;
+}
+
+.lk-casual .casual-left .index-list li em {
+    color: #c0c0c0;
+    margin: 0 0.2rem;
+}
+
+/* 右边 */
+.lk-casual .casual-right {
+    width: 17rem;
+    height: 44rem;
+    background-color: #fff;
+    float: left;
+    margin-left: -17rem;
+}
+
+/* 右边的上部分 */
+.lk-casual .casual-right .user-info {
+    width: 17rem;
+    height: 15.5rem;
+    padding: 1rem 0 0.2rem;
+    border-bottom: 0.1rem solid #f2f2f2;
+    box-sizing: border-box;
+}
+
+.lk-casual .casual-right .user-info .user-img {
+    text-align: center;
+}
+
+.lk-casual .casual-right .user-info .user-img a {
+    display: inline-block;
+    width: 3.7rem;
+    height: 3.8rem;
+}
+
+.lk-casual .casual-right .user-info .info {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.lk-casual .casual-right .user-info .btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lk-casual .casual-right .user-info .btn a.register {
+    width: 6.8rem;
+    height: 2rem;
+    border: 1px solid #f90;
+    color: #ffa114;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.lk-casual .casual-right .user-info .btn a.superhy {
+    display: inline-block;
+    width: 7rem;
+    height: 2.2rem;
+}
+
+.lk-casual .casual-right .user-info .enter {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 0.8rem;
+}
+
+.lk-casual .casual-right .user-info .enter a {
+    margin: 0 0.5rem;
+}
+
+.lk-casual .casual-right .user-info .enter a em {
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.4rem;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+/* 右边的中部分 */
+.lk-casual .casual-right .toutiao {
+    width: 17rem;
+    height: 10rem;
+    margin: 1.1rem 1rem 1.2rem;
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+
+.lk-casual .casual-right .toutiao li {
+    height: 4.8rem;
+}
+
+.lk-casual .casual-right .toutiao li i {
+    color: #f90;
+    margin-left: 0.5rem;
+}
+
+/* 右边的下部分 */
+.lk-casual .casual-right .kuaijie {
+    width: 17rem;
+    height: 16.2rem;
+    overflow: hidden;
+    border-top: 0.1rem solid #f2f2f2;
+}
+
+.lk-casual .casual-right .kuaijie ul li {
+    width: 5.6rem;
+    height: 8.1rem;
+    float: left;
+
+    border-width: 0 0.1rem 0.1rem 0;
+    border-style: solid;
+    border-color: #F2F2F2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lk-casual .casual-right .kuaijie ul li:nth-child(3),
+.lk-casual .casual-right .kuaijie ul li:nth-child(6) {
+    border-right: 0;
+}
+
+.lk-casual .casual-right .kuaijie ul li i {
+    font-size: 3rem;
+}
+
+/* 中间 */
+.lk-casual .casual-center {
+    width: 100%;
+    height: 44rem;
+    float: left;
+}
+
+.lk-casual .casual-center .casual-center-w {
+    margin: 0 17rem 0 21rem;
+    height: 44rem;
+    background-color: red;
+    position: relative;
+}
+
+.lk-casual .casual-center .casual-center-w img {
+    width: 100%;
+    height: 44rem;
+}
+
+.lk-casual .casual-center .casual-center-w .c-prev,
+.lk-casual .casual-center .casual-center-w .c-next {
+    position: absolute;
+    top: 50%;
+    width: 3rem;
+    height: 6rem;
+    background-color: rgba(0, 0, 0, .4);
+    font-size: 2.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+}
+
+.lk-casual .casual-center .casual-center-w .c-prev {
+    left: 0;
+}
+
+.lk-casual .casual-center .casual-center-w .c-next {
+    right: 0;
+}
+
+.lk-casual .casual-center .casual-center-w .c-bottom {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.lk-casual .casual-center .casual-center-w .c-bottom li {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 0.2rem;
+    float: left;
+}
+
+.lk-casual .casual-center .casual-center-w .c-bottom li.current {
+    background-color: red;
+}
+
+/*********** 轮播图-end ***********/
+
+/*********** 主要内容-start ***********/
+.lk-main {}
+
+.meau {
+    width: 100%;
+    height: 60px;
+    margin: 20px auto;
+    border: 1px solid #82847e;
+}
+
+/*标题导航设置*/
+.nav {
+    width: 160px;
+    margin: 0 auto;
+}
+
+.meau span {
+    display: block;
+    float: right;
+    font: bolder 25px "新宋体";
+    line-height: 60px;
+    margin: 0;
+}
+
+/*font-awesome 字体图标设置*/
+.fa-book {
+    padding-top: 5px;
+    color: #b2d3ff;
+}
+
+/*图书系列设置*/
+.items {
+    width: 1400px;
+    height: 450px;
+    background-color: #ffffff;
+    margin: 0 auto;
+
+}
+
+/*放置图书信息盒子设置*/
+.item {
+    width: 220px;
+    height: 380px;
+    float: left;
+    margin: 25px;
+    text-align: center;
+    /*给class=.item的盒子添加阴影*/
+    box-shadow: 10px 10px 10px #bec5c8;
+    border-radius: 5px;
+
+}
+
+.item h3 {
+    padding-top: 30px;
+}
+
+.items .item .textbook {
+    padding-top: 40px;
+}
+
+/*鼠标悬停时，该区域的显示的效果*/
+.item:hover {
+    /*外边框*/
+    border: 1px solid #a0a29c;
+    /*给盒子的顶点添加一个弧度 为5px*/
+    border-radius: 5px;
+}
+
+/*给选中的盒子添加渐变色*/
+.item_color {
+    /*渐变色为重上向下渐变，颜色为#09cac5 30%，#09cac5 30%*/
+    background-image: linear-gradient(to bottom, #09cac5 30%, #09cac5 30%);
+}
+
+.item img {
+    padding: 10px;
+}
+
+.items .item .book {
+    padding-top: 40px;
+}
+
+.item_p {
+    font: bold 20px "Microsoft YaHei UI Light";
+    margin: 0;
+    margin-bottom: 10px;
+    color: red;
+    text-align: left;
+    text-indent: 1rem;
+}
+
+.notobook {
+    font: bold 15px "华文仿宋";
+    margin: 0;
+    text-align: left;
+    /*首航缩进1rem*/
+    text-indent: 1rem;
+}
+
+.item h3 {
+    font-size: 20px;
+}
+
+.item_comments {
+    width: auto;
+    height: 20px;
+    font: bold 13px "华文仿宋";
+    text-align: left;
+    /*首航缩进1rem*/
+    text-indent: 1rem;
+    color: #9ba3a6;
+}
+
+.item_comments a {
+    /*去掉a标签的下划线*/
+    text-decoration: none;
+    color: #9ba3a6;
+}
+
+.item_comments span {
+    /*转换为块状元素*/
+    display: block;
+}
+
+.shopping {
+    width: 80px;
+    height: 23px;
+    /*采用相对定位的定位方式*/
+    position: relative;
+    top: 32px;
+    left: 1rem;
+    border: 1px solid #a0a0a0;
+}
+
+.shopping span {
+    font-size: 12px;
+    font-family: "华文仿宋";
+}
+
+.shopping a {
+    text-decoration: none;
+}
+
+/*********** 主要内容-end ***********/
+
+/*********** 尾部内容-start ***********/
+.lk-footer {
+    background: #eaeaea;
+    border-top: 0.1rem solid #e7e7e7;
+    padding: 2rem 0;
+}
+
+.lk-footer .footer-top .footer-top-propmise {
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+.lk-footer .footer-top .footer-top-propmise dl {
+    float: left;
+    width: 25%;
+
+}
+
+.lk-footer .footer-top .footer-top-propmise dl dt {
+    float: left;
+    margin: 1rem 0 0 2rem;
+    width: 4.4rem;
+    height: 4.4rem;
+    background-image: url(images/ico_service.png);
+    background-repeat: no-repeat;
+}
+
+.lk-footer .footer-top .footer-top-propmise .first {
+    background-position: 0px 2.8px;
+}
+
+.lk-footer .footer-top .footer-top-propmise .second {
+    background-position: 0px -42px;
+}
+
+.lk-footer .footer-top .footer-top-propmise .third {
+    background-position: 0px -85px;
+}
+
+.lk-footer .footer-top .footer-top-propmise .forth {
+    background-position: 0px -128px;
+}
+
+.lk-footer .footer-top .footer-top-propmise dl dd {
+    line-height: 2.4rem;
+    font-size: 20px;
+}
+
+.lk-footer .footer-top .footer-top-propmise dl dd p {
+    padding-top: 2rem;
+}
+
+.lk-footer .footer-top .footer-top-shopping {
+    padding: 2rem 5rem;
+    border-top: 1px solid #dedede;
+}
+
+.lk-footer .footer-top .footer-top-shopping dl {
+    float: left;
+    width: 20%;
+}
+
+.lk-footer .footer-top .footer-top-shopping dl dt {
+    font: bolder 1.8rem/4rem "microsoft yahei";
+    color: #545454;
+}
+
+.lk-footer .footer-top .footer-top-shopping dl dd {
+    padding-left: .3rem;
+}
+
+.lk-footer .footer-bottom {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.lk-footer .footer-bottom .url-list-links {
+    line-height: 2.5rem;
+    height: 2.5rem;
+}
+
+.lk-footer .footer-bottom .url-list-links a {
+    margin: 0 0.8rem;
+}
+
+.lk-footer .footer-bottom .footer-bottom-copyright {
+    padding: 1rem 0;
+    line-height: 2.5rem;
+}
+
+.lk-footer .footer-bottom-img a {
+    margin: 0 0.5rem;
+}
+
+/*********** 尾部内容-end ***********/

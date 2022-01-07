@@ -1,0 +1,295 @@
+.item_p {
+    font: bold 20 px "Microsoft YaHei UI Light";
+    margin: 0;
+    margin-bottom: 10 px;
+    color: red;
+    text-align: left;
+    text-indent: 1 rem;
+}
+
+.notobook {
+    text-align: left;
+    text-indent: 1rem;
+    font: bold 15px 华文仿宋;
+    margin: 0px;
+}
+
+.item_comments {
+    width: auto;
+    height: 20px;
+    text-align: left;
+    text-indent: 1rem;
+    color: rgb(155, 163, 166);
+    font: bold 13px 华文仿宋;
+}
+
+.shopping {
+    width: 80 px;
+    height: 23 px;
+    position: relative;
+    top: 32 px;
+    left: 1 rem;
+    border: 1 px solid #a0a0a0;
+}
+
+.item {
+    width: 220px;
+    height: 20px;
+    text-align: left;
+    text-indent: 1rem;
+    color: rgb(155, 163, 166);
+    font: bold 13px 华文仿宋;
+}
+
+.shopping {
+    padding-left: 35%;
+}
+
+.lk-casual {
+    width: 100%;
+    height: 44rem;
+    background-color: rgb(115, 164, 255);
+    border-top: 1px solid #e7e7e7;
+}
+
+/* 左边 */
+.lk-casual .casual-left {
+    width: 21rem;
+    height: 44rem;
+    background-color: #252221;
+    float: left;
+    margin-left: -100%;
+}
+
+.lk-casual .casual-left .index-list {
+    width: 21rem;
+    height: 44rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.lk-casual .casual-left .index-list li {
+    height: 2rem;
+    padding-left: 0.8rem;
+}
+
+.lk-casual .casual-left .index-list li a {
+    color: #fff;
+}
+
+.lk-casual .casual-left .index-list li a:hover {
+    color: #F8B62B;
+}
+
+.lk-casual .casual-left .index-list li em {
+    color: #c0c0c0;
+    margin: 0 0.2rem;
+}
+
+/* 右边 */
+.lk-casual .casual-right {
+    width: 17rem;
+    height: 44rem;
+    background-color: #fff;
+    float: left;
+    margin-left: -17rem;
+}
+
+/* 右边的上部分 */
+.lk-casual .casual-right .user-info {
+    width: 17rem;
+    height: 15.5rem;
+    padding: 1rem 0 0.2rem;
+    border-bottom: 0.1rem solid #f2f2f2;
+    box-sizing: border-box;
+}
+
+.lk-casual .casual-right .user-info .user-img {
+    text-align: center;
+}
+
+.lk-casual .casual-right .user-info .user-img a {
+    display: inline-block;
+    width: 3.7rem;
+    height: 3.8rem;
+}
+
+.lk-casual .casual-right .user-info .info {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.lk-casual .casual-right .user-info .btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lk-casual .casual-right .user-info .btn a.register {
+    width: 6.8rem;
+    height: 2rem;
+    border: 1px solid #f90;
+    color: #ffa114;
+    line-height: 2rem;
+    text-align: center;
+    margin-left: 40px;
+    padding: 0 5px;
+}
+
+.lk-casual .casual-right .user-info .btn a.superhy {
+    display: inline-block;
+    width: 7rem;
+    height: 2.2rem;
+}
+
+.lk-casual .casual-right .user-info .enter {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 0.8rem;
+}
+
+.lk-casual .casual-right .user-info .enter a {
+    margin: 0 0.5rem;
+}
+
+.lk-casual .casual-right .user-info .enter a em {
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.4rem;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+/* 右边的中部分 */
+.lk-casual .casual-right .toutiao {
+    width: 17rem;
+    height: 10rem;
+    margin: 1.1rem 1rem 1.2rem;
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+
+.lk-casual .casual-right .toutiao li {
+    height: 4.8rem;
+}
+
+.lk-casual .casual-right .toutiao li i {
+    color: #f90;
+    margin-left: 0.5rem;
+}
+
+/* 右边的下部分 */
+.lk-casual .casual-right .kuaijie {
+    width: 17rem;
+    height: 16.2rem;
+    overflow: hidden;
+    border-top: 0.1rem solid #f2f2f2;
+}
+
+.lk-casual .casual-right .kuaijie ul li {
+    width: 5.6rem;
+    height: 8.1rem;
+    float: left;
+
+    border-width: 0 0.1rem 0.1rem 0;
+    border-style: solid;
+    border-color: #F2F2F2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lk-casual .casual-right .kuaijie ul li:nth-child(3),
+.lk-casual .casual-right .kuaijie ul li:nth-child(6) {
+    border-right: 0;
+}
+
+.lk-casual .casual-right .kuaijie ul li i {
+    font-size: 3rem;
+}
+
+/* 中间 */
+.lk-casual .casual-center {
+    width: 100%;
+    height: 44rem;
+    float: left;
+}
+
+.lk-casual .casual-center .casual-center-w {
+    margin: 0 17rem 0 21rem;
+    height: 44rem;
+    background-color: red;
+    position: relative;
+}
+
+.lk-casual .casual-center .casual-center-w img {
+    width: 100%;
+    height: 44rem;
+}
+
+.lk-casual .casual-center .casual-center-w .c-prev,
+.lk-casual .casual-center .casual-center-w .c-next {
+    position: absolute;
+    top: 50%;
+    width: 3rem;
+    height: 6rem;
+    background-color: rgba(0, 0, 0, .4);
+    font-size: 2.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+}
+
+.lk-casual .casual-center .casual-center-w .c-prev {
+    left: 0;
+}
+
+.lk-casual .casual-center .casual-center-w .c-next {
+    right: 0;
+}
+
+.lk-casual .casual-center .casual-center-w .c-bottom {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.lk-casual .casual-center .casual-center-w .c-bottom li {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 0.2rem;
+    float: left;
+}
+
+.lk-casual .casual-center .casual-center-w .c-bottom li.current {
+    background-color: red;
+}
+
+/*********** 轮播图-end ***********/
+
+.menu {
+    width: 100%;
+    height: 60px;
+    margin: 20px auto;
+    border-top: 1px solid #82847e;
+    border-bottom: 1px solid #82847e;
+}
+
+.fa-book {
+    padding-top: 5 px;
+    color: #b2d3ff;
+}
+
+.menu span {
+    display: block;
+    padding-left: 45%;
+    font: bolder 25px / 60px 新宋体;
+    margin: 0px;
+}

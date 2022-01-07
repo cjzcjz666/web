@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="../../bootstrap-3.3.4/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../../Flat-UI-master/dist/css/flat-ui.min.css"/>
+    <link rel="stylesheet" href="../../app/css/base.css"/>
+    <link rel="stylesheet" href="../../app/css/info.css">
+
+    <title>详情</title>
+    <style>
+        .row{
+            margin-left: 20px;
+            margin-right: 20px;;
+        }
+        .center{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            </button>
+            <a class="navbar-brand" href="index.html">图书商城</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">首页</a></li>
+                <li><a href="#">我的订单</a></li>
+                <li><a href="#">个人中心</a></li>
+                <li><a href="#">商城会员</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right hidden-sm">
+                <li><a href="Login.html">登录</a></li>
+                <li><a href="Register.html">注册</a></li>
+                <li>
+                    <a href="#"><span class="glyphicon glyphicon-shopping-cart">购物车</span></a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+    </div>
+
+    <!-- 顶部搜索-开始 -->
+    <section class="lk-top-search">
+        <!-- 版心 -->
+        <div class="container">
+            <!-- 左边 -->
+            <div class="col-lg-5 col-md-5 col-sm-5">
+                <div class="logo-set">
+                    <img src="../images/logo.png" alt="">
+                </div>
+            </div>
+            
+            <!-- 右边 -->
+            <div class="col-lg-7 col-md-7 col-sm-7">
+                <!-- 搜索框 -->
+                <form action="" class="search-input">
+                    <input type="text" name="search" placeholder="和大人一起读">
+                    <input type="submit" value="搜 索">
+                </form>
+                <!-- 快捷导航 -->
+                <div class="search-more-link">
+                    <ul>
+                        <li>热搜：</li>
+                        <li><a href="#">大象的旅程</a></li>
+                        <li><a href="#">曲一线</a></li>
+                        <li><a href="#">古人100天</a></li>
+                        <li><a href="#">长津湖</a></li>
+                        <li><a href="#">初级会计</a></li>
+                        <li><a href="#">2021诺贝尔</a></li>
+                    </ul>
+                </div>  
+            </div>   
+        </div>
+    </section>
+    <!-- 顶部搜索-结束 -->
+        
+    <!-- 中部导航-开始 -->
+    <section class="lk-nav">
+        <div class="container">
+            <!-- 左边 -->
+            <div class="col-lg-4 col-md-2 col-sm-3 col-xs-3s">
+                <div class="lk-nav-menu">
+                    <div class="lk-nav-menu-all">
+                        <a href="#">全部商品分类</a>
+                    </div>
+                </div>
+            </div>
+                
+            <!-- 右边 -->
+            <div class="col-lg-8 col-md-10 col-sm-9 col-xs-8">
+                <div class="lk-nav-items">
+                    <ul>
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">图书</a></li>
+                        <li><a href="#">电子书</a></li>
+                        <li><a href="#">国集电子书</a></li>
+                        <li><a href="#">标准电子书</a></li>
+                        <li><a href="#">网络文学</a></li>
+                        <li><a href="#">积分换购</a></li>
+                        <li><a href="#">国标电子书库</a></li>
+                    </ul>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <!-- 中部导航-结束 -->
+
+    <!--content-->
+    <div class="product-intro w">
+        <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12">
+            <div class="preview-wrap">
+                <img src="../../app/images/detail1.jpg" alt="">
+            </div>
+        </div>
+        
+        <div class="col-lg-8 col-md-7 col-sm-12 col-xs-5">
+            <div class="itemInfo-wrap">
+                <div class="e-bookInfo">
+                    <div><h3 id="bookDetailTitle">16G101-2：混凝土结构施工图平面整体表示方法制图规则和构造详图（现浇混凝土板式楼梯）</h3></div>
+                    <div class="bookIntro row">
+                        <div class="col-md-4"><span>资源状态：现行</span></div>
+                        <div class="col-md-8"><span>代替标准号：-</span></div>
+                        <div class="col-md-4"><span>发布日期：2016-09-01</span></div>
+                        <div class="col-md-4"><span>实施日期：2016-09-01</span></div>
+                        <div class="col-md-4"><span>废止日期：-</span></div>
+                        <div class="col-md-12">
+                            <span>主编单位:中国建筑标准设计研究院有限公司</span>
+                        </div>
+                    </div>
+                    <div class="priceInfo">
+                        <span style="color: red;font-size: 20px;">￥&nbsp;40.50</span>     
+                        <span style="margin-right:5px">原价：<span style="text-decoration: line-through;margin-right: 0;">￥45.00</span></span>
+                        <span style="font-size: 14px" id="discount">(9.0折)</span>
+                        <a href="https://shop.chinabuilding.com.cn/zshop/goodsInfo/goodsDetail?SiteID=26&amp;goodsID=484702" target="_blank"><span style="font-weight: bold;font-size: 14px;">电子书：￥18.00</span></a>   
+                    </div>
+                    <div class="mt10 equipment-detail-capacity goodC">
+                          	  数 量：                           
+                        <div class="minusBtn"><img class="" src="https://shop.chinabuilding.com.cn/images/points-icon-01.png"></div>
+                        <input id="goodCount" class="goodCount" type="text" value="1">  
+                        <div class="addBtn"><img class="" src="https://shop.chinabuilding.com.cn/images/points-icon-02.png"></div>                                 
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn-buynow " href="javascript:void(0);" onclick="nowBuyBtnClick()" id="nowBuyBtn">立即购买</a>
+                        <a class="btn-collect " href="javascript:void(0);" id="addToCartBtn">加入购物车</a>
+                           
+                        <a class="btn-buy" href="https://shop.chinabuilding.com.cn/zshop/goodsInfo/goodsDetail?SiteID=26&amp;goodsID=484702" target="_blank">电子书购买</a>
+                           
+                        <a class="share-btn m-l-md " id="shareSpan-btn" href="javascript:void(0);">分享</a>
+                        <div id="shareDiv" class="fire_share" style="display: none;">
+ 							<div class="bshare-custom">
+		 						<ul class="list-unstyled">
+									<li><a href="javascript:void(0);" onclick="goShareDetail(this,'qfriends')" class="b-btn-4 b1"><img src="https://shop.chinabuilding.com.cn/images/qzone.png">&nbsp;&nbsp;QQ好友</a></li>
+									<li><a href="javascript:void(0);" onclick="goShareDetail(this,'tsina')" class="b-btn-4 "><img src="https://shop.chinabuilding.com.cn/images/tsina.png">&nbsp;&nbsp;新浪微博</a></li>
+									<li class="wx-share"><a href="javascript:void(0);" class="b-btn-4 "><img src="https://shop.chinabuilding.com.cn/images/weixin.png">&nbsp;&nbsp;微信扫一扫</a></li>
+								</ul>
+								<div class="wx-code" style="display: none;">
+									<div id="__QRCode1634203108691" class="z-qrcode"><iframe src="about:blank" scrolling="no" frameborder="0" style="border: none; width: 110px; height: 110px; overflow: hidden;"></iframe></div><script type="text/javascript" src="https://shop.chinabuilding.com.cn/zshop/framework/components/qrcode.js"></script><script type="text/javascript"> QRCode.show(document.getElementById('__QRCode1634203108691'),110,window.location.href+'#_z_s=Qrcode')</script>												
+								</div> 
+		 					</div>
+		                </div>
+                        <a class="btn-follow " href="javaScript:void(0);" onclick="addAttention(552480,'Goods')">关注</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+            <!-- 简介目录 -->
+        <div class="brief m-t-lg clearfix tab-detailPage" id="brief">
+            <div class="col-lg-12 col-md-10 col-sm-8 col-xs-5">
+                            <div class=" file table_card">
+                <ul class="brief-tab">
+                    <li class="active" style="background:none;"><a href="javascript:void(0);"><span>简介</span></a></li>
+                    <li style="background:none;"><a href="javascript:void(0);"><span>目录</span></a></li>
+                </ul>
+                <div class="bd">
+                    <div class="tabCon">
+                        <div id="on" class="brief-tab-list" style="display: block;">
+                            <p>本图集是对11G101-2《混凝土结构施工图平面整体表示方法制图规则和构造详图（现浇混凝土板式楼梯）》的修编。本次修编按GB 18306-2015《中国地震动参数区划图》、GB 50011-2010《建筑抗震设计规范》及2016年局部修订、GB 50010-2010《混凝土结构设计规范》（2015版）等新标准，结合近年来工程实践对图集提出的反馈意见，对图集原有内容进行了系统的梳理、修订，同时考虑实际工程应用需要新增了梯板由踏步段和高端平板构成的滑动支座CTa和CTb型楼梯等内容。 本图集适用于抗震设防烈度为6～9度地区的现浇钢筋混凝土板式楼梯。 图集中现浇混凝土板式楼梯包括12种类型，其中AT~GT用于不参与主体结构抗震计算的楼梯，ATc用于框架中参与主体结构抗震计算的楼梯，ATa、ATb、CTa、CTb用于采取滑动措施减轻楼梯对主体（框架）影响的楼梯。</p>
+                        </div>
+                        <div class="brief-tab-list" id="Directory" style="display: none;">
+                                    
+                        <div class="col-md-9 col-sm-9 col-sx-9 text-left">16G101-2&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">1&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">目录&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">6&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">总说明&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">8&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">第一部分 平法制图规则&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">9&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">l 总则&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">9&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">2 现浇混凝土板式楼梯平法施工图制图规则&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">11&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">2.1 现浇混凝土板式楼梯平法施工图的表示方法&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">11&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">2.2 楼梯类型&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">11&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">2.3 平面注写方式&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">13&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">2.4 剖面注写方式&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">14&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">2.5 列表注写方式&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">15&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">2.6 其他&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">15&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">AT、BT型楼梯截面形状与支座位置示意图&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">16&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">CT、DT型楼梯截面形状与支座位置示意图&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">17&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ET、FT型楼梯截面形状与支座位置示意图&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">18&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">GT型楼梯截面形状与支座位置示意图&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">19&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ATa、ATb、ATc型楼梯截面形状与支座位置示意图&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">20&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">CTa、CTb型楼梯截面形状与支座位置示意图&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">21&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">第二部分 标准构造详图&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">22&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">混凝土结构的环境类别 混凝土保护层的最小厚度&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">22&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">受拉钢筋基本锚固长度ιab 抗震设计时受拉钢筋基本锚固长度ιabE 钢筋弯折的弯弧内直径D&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">23&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">受拉钢筋锚固长度ιa 受拉钢筋抗震锚固长度ιaE&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">24&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">纵向钢筋弯钩与机械锚固形式 纵向受力钢筋搭接区箍筋构造 纵向钢筋的连接&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">25&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">纵向受拉钢筋搭接长度lι&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">26&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">纵向受拉钢筋抗震搭接长度lιE&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">27&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">AT型楼梯平面注写方式与适用条件&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">28&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">AT型楼梯板配筋构造&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">29&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">BT型楼梯平面注写方式与适用条件&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">30&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">BT型楼梯板配筋构造&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">31&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">CT型楼梯平面注写方式与适用条件&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">32&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">CT型楼梯板配筋构造&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">33&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">DT型楼梯平面注写方式与适用条件&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">34&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">DT型楼梯板配筋构造&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">35&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ET型楼梯平面注写方式与适用条件&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">36&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ET型楼梯板配筋构造&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">37&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">FT型楼梯平面注写方式与适用条件&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">38&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">FT型楼梯板配筋构造(1-1剖面)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">39&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">FT型楼梯板配筋构造(2-2剖面)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">40&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">GT型楼梯平面注写方式与适用条件&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">41&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">GT型楼梯板配筋构造(1-1剖面)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">42&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">GT型楼梯板配筋构造(2-2剖面)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">43&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">FT、GT型楼梯平板配筋构造(3-3、4-4剖面)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">44&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ATa、ATb型楼梯平面注写方式与适用条件&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">45&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ATa、CTa型楼梯滑动支座构造详图&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">46&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ATa型楼梯板配筋构造&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">47&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ATb、CTb型楼梯滑动支座构造详图&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">48&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ATb型楼梯板配筋构造&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">49&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ATc型楼梯平面注写方式与适用条件&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">50&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ATc型楼梯板配筋构造&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">51&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">CTa、CTb型楼梯平面注写方式与适用条件&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">52&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">CTa型楼梯板配筋构造&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">53&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">CTb型楼梯板配筋构造&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">54&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">不同踏步位置推高与高度减小构造&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">55&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">各型楼梯第一跑与基础连接构造&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">56&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">AT-DT型楼梯施工图剖面注写示例(平面图)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">57&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">AT-DT型楼梯施工图剖面注写示例(剖面图)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">58&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ATa型楼梯施工图剖面注写示例(平面图)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">59&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ATa型楼梯施工图剖面注写示例(剖面图)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">60&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ATb型楼梯施工图剖面注写示例(平面图)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">61&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ATb型楼梯施工图剖面注写示例(剖面图)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">62&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ATc型楼梯施工图剖面注写示例1(平面图)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">63&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ATc型楼梯施工图剖面注写示例1(剖面图)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">64&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ATc型楼梯施工图剖面注写示例2(平面图)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">65&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">ATc型楼梯施工图剖面注写示例2(剖面图)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">66&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">CTa型楼梯施工图剖面注写示例(平面图)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">67&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">CTa型楼梯施工图剖面注写示例(剖面图)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">68&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">CTb型楼梯施工图剖面注写示例(平面图)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">69&nbsp;</div><div class="col-md-9 col-sm-9 col-sx-9 text-left">CTb型楼梯施工图剖面注写示例(剖面图)&nbsp;</div><div class="col-md-3 col-sm-3 col-sx-3 text-right">70&nbsp;</div></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 评论开始 -->
+            <div class="discuss m-t-lg clearfix tab-detailPage" id="discuss">      
+                <div class=" file table_card">
+                    <ul class="discuss-tab">
+                        <li class="active" style="background:none;"><a href="javascript:void(0);"><span>评论<font>(0)</font></span></a></li>
+                    </ul>
+                    <div class="bd">
+                        <div class="tabCon">   
+                            <div class="noData"><span>暂无相关数据</span></div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <!-- 评论结束 -->
+            </div>
+
+        </div>  
+    </div>
+
+    <!--footer-->
+    <footer class="lk-footer container">
+    <div class="footer-top">           
+        <div class="footer-top-propmise clearfix">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <dl>
+                        <dt class="first"></dt>
+                        <dd>
+                            <p><strong>品类齐全，轻松购物</strong></p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="second"></dt>
+                        <dd>
+                            <p><strong>多仓直发，极速配送</strong></p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="third"></dt>
+                        <dd>
+                            <p><strong>正品行货，精致服务</strong></p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="forth"></dt>
+                        <dd>
+                            <p><strong>天天低价，畅选无忧</strong></p>
+                        </dd>
+                    </dl>        
+                </div>
+            </div> 
+        </div>
+                
+        <div class="footer-top-shopping clearfix">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                    <dl>
+                        <dt>购物指南</dt>
+                        <dd><a href="">购物流程</a></dd>
+                        <dd><a href="">会员介绍</a></dd>
+                        <dd><a href="">生活旅行/团购</a></dd>                       
+                        <dd><a href="">常见问题</a></dd>
+                        <dd><a href="">联系客服</a></dd>
+                    </dl>
+                </div>
+                
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                    <dl>
+                        <dt>配送方式</dt>
+                        <dd><a href="">上门自提</a></dd>
+                        <dd><a href="">211限时达</a></dd>
+                        <dd><a href="">配送服务查询</a></dd>
+                        <dd><a href="">配送费收取标准</a></dd>
+                        <dd><a href="">海外配送</a></dd>
+                    </dl>
+                </div>
+                
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                    <dl>
+                        <dt>支付方式</dt>
+                        <dd><a href="">货到付款</a></dd>
+                        <dd><a href="">在线支付</a></dd>
+                        <dd><a href="">分期付款</a></dd>
+                        <dd><a href="">公司转账</a></dd>
+                    </dl>
+                </div>
+                
+                <div class="col-xs-6 active col-md-3 col-lg-3">
+                    <dl>
+                        <dt>售后服务</dt>
+                        <dd><a href = "">售后政策</a></dd>
+                        <dd><a href = "">价格保护</a></dd>
+                        <dd><a href = "">退款说明</a></dd>
+                        <dd><a href = "">返修/退换货</a></dd>
+                        <dd><a href = "">取消订单</a></dd>
+                    </dl>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p class="url-list-links">
+            <a href="#">关于我们</a>|
+            <a href="#">联系我们</a>|
+            <a href="#">联系客服</a>|
+            <a href="#">合作招商</a>|
+            <a href="#">商家帮助</a>|
+            <a href="#">营销中心</a>|
+            <a href="#">诚聘英才</a>|
+            <a href="#">友情链接</a>|
+            <a href="#">隐私政策</a>|
+            <a href="#">网站联盟</a>
+        </p>
+        <div class="footer-bottom-copyright">
+        Copyright© 2002-2018，苏宁易购集团股份有限公司版权所有 | 苏公网安备 32010202010078号 | 苏ICP备10207551号-4 | 苏B1-20130131<br>
+        苏B2-20130376 | 苏B2-20130391 | 出版物经营许可证新出发苏批字第A-243号 | 互联网药品信息服务资格证书（苏）-非经营性-2016-0005<br>
+        本网站直接或间接向消费者推销商品或者服务的商业宣传均属于“广告”（包装及参数、售后保障等商品信息除外）
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
